@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Rushab Risal</h3>
             <p className="text-sm text-white/80">
-              Software Engineering student passionate about web development and data science.
+              Software Engineering student passionate about Artificial Intelligence.
             </p>
           </div>
           
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-sm text-white/80 mb-2">rushabofficial@gmail.com</p>
-            <p className="text-sm text-white/80">+977 9860721460</p>
+            <p className="text-sm text-white/80">+977 9808721469</p>
           </div>
         </div>
         

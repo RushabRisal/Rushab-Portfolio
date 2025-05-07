@@ -33,9 +33,9 @@ const ContactSection: React.FC = () => {
                 <Phone className="h-6 w-6" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Phone</h3>
-              <p className="text-muted-foreground">+977 9860721460</p>
+              <p className="text-muted-foreground">+977 9808721469</p>
               <Button variant="link" asChild className="mt-2">
-                <a href="tel:+9779860721460">Call Me</a>
+                <a href="tel:+9779808721469">Call Me</a>
               </Button>
             </CardContent>
           </Card>
