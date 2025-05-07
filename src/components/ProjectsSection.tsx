@@ -20,14 +20,14 @@ const ProjectCard: React.FC<{
         <CardDescription>{description}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
-        <ul className="space-y-2">
+        {/* <ul className="space-y-2">
           {details.map((detail, idx) => (
             <li key={idx} className="flex items-start">
               <ArrowRight className="h-5 w-5 mr-2 shrink-0 text-primary" />
               <span>{detail}</span>
             </li>
           ))}
-        </ul>
+        </ul> */}
         <div className="flex flex-wrap gap-2 pt-4">
           <Button size="sm" variant="outline" asChild>
             <a href={githubLink} target="_blank" rel="noreferrer" className="inline-flex items-center">

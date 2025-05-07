@@ -11,13 +11,13 @@ interface SkillCategoryProps {
 const SkillCategory: React.FC<SkillCategoryProps> = ({ title, skills }) => {
   return (
     <Card className="h-full hover:shadow-lg transition-all duration-300">
-      <CardContent className="p-6">
+      <CardContent className="p-6 ">
         <h3 className="text-xl font-semibold mb-4">{title}</h3>
         <div className="flex flex-wrap gap-2">
           {skills.map((skill, index) => (
             <span 
               key={index}
-              className="bg-secondary text-primary-foreground py-1 px-4 rounded-full text-sm"
+              className="bg-secondary text-black py-1 px-4 rounded-full text-sm"
             >
               {skill}
             </span>
