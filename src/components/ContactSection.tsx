@@ -62,7 +62,7 @@ const ContactSection: React.FC = () => {
               </a>
             </Button>
             <Button size="lg" variant="outline" className="rounded-full" asChild>
-              <a href="https://www.linkedin.com/in/Rushab-Risal" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/rushabofficials" target="_blank" rel="noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
               </a>
