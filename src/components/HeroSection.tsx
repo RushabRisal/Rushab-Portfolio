@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <a 
-                href="https://www.linkedin.com/in/Rushab-Risal" 
+                href="https://www.linkedin.com/in/rushabofficials" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
