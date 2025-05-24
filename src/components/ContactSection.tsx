@@ -20,9 +20,9 @@ const ContactSection: React.FC = () => {
                 <Mail className="h-6 w-6" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-muted-foreground">rushabofficial@gmail.com</p>
+              <p className="text-muted-foreground">rushab@rushabrisal.com.np</p>
               <Button variant="link" asChild className="mt-2">
-                <a href="mailto:rushabofficial@gmail.com">Send Email</a>
+                <a href="mailto:rushab@rushabrisal.com.np">Send Email</a>
               </Button>
             </CardContent>
           </Card>

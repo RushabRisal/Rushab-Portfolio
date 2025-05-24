@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a 
-                href="mailto:rushabofficial@gmail.com" 
+                href="mailto:rushab@rushabrisal.com.np" 
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5" />
