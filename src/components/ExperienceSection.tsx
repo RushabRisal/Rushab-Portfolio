@@ -66,6 +66,26 @@ const ExperienceCard: React.FC<ExperienceItem & { index: number }> = ({
 const ExperienceSection: React.FC = () => {
   const experiences: ExperienceItem[] = [
     {
+      title: ".Net Intern",
+      organization: "Percoid IT Solutions Pvt. Ltd.",
+      location: "Manbhawan, Lalitpur, Nepal",
+      description: [
+        "Gained hands-on experience in .NET backend development, working with C#, ASP.NET Core, Entity Framework Core, SQL Server, RESTful APIs, and software architecture practices in a professional environment.",
+        "Collaborated with development and QA teams to develop, test, debug, and improve application features, gaining practical experience with Git, Clean Architecture, CQRS, authentication, and modern backend tools."
+      ],
+      // link: "https://hultprize.ncit.edu.np"
+    },
+    {
+      title: "Freelance Software Developer",
+      organization: "Freelance",
+      location: "Remote",
+      description: [
+        "Developed and deployed full-stack web applications, working across frontend, backend, database design, and cloud deployment.",
+        "Worked directly with project requirements and implemented authentication, content management, access control, and production-ready workflows."
+      ],
+      // link: "https://hultprize.ncit.edu.np"
+    },
+    {
       title: "Technical Member",
       organization: "Hult Prize at NCIT",
       location: "NCIT, Balkumari",

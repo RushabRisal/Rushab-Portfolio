@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
               <span className="text-primary">Rushab Risal</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Software Engineering student with a passion for AI/ML, and web development.
+              Backend-focused Software Engineer specializing in .NET, building scalable, secure, and well-architected systems.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild>

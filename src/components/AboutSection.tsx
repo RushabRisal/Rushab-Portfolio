@@ -12,19 +12,13 @@ const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a Software Engineering student at Nepal College of Information Technology with a passion for building 
-              interactive web applications and exploring data science. My journey in tech started with curiosity about 
-              how digital solutions can solve real-world problems.
+             I’m a Software Engineer and .NET Developer with a passion for building reliable, scalable, and maintainable software. My journey in tech started with a curiosity about how digital solutions can solve real-world problems, which gradually grew into a deeper interest in backend development, system architecture, and building software that is designed to evolve.
             </p>
             <p className="text-lg leading-relaxed">
-              During my studies and projects, I've developed strong technical skills in Python, JavaScript, and various 
-              frameworks like React and Streamlit. I enjoy working on data-driven applications that provide valuable insights
-              and enhance user experiences.
+              I primarily work with C#, .NET 8, ASP.NET Core, Clean Architecture, CQRS, Entity Framework Core, and SQL Server. I enjoy designing clean APIs, structuring backend systems, and turning complex requirements into practical technical solutions. I also have experience building full-stack applications with React and working with technologies such as SignalR, Serilog, Cloudinary, allowing me to understand and work across the entire development lifecycle.
             </p>
             <p className="text-lg leading-relaxed">
-              Beyond coding, I value collaboration and community involvement. My experience with organizations like 
-              Nepal Open Source Klub has taught me the importance of teamwork and effective communication in 
-              software development.
+            Beyond development, I value collaboration, continuous learning, and community involvement. I’ve also explored data science and machine learning, including co-authoring two published research papers, which has strengthened my analytical and problem-solving skills. I enjoy learning new technologies, sharing knowledge, and continuously finding better ways to build software.
             </p>
           </div>
           
