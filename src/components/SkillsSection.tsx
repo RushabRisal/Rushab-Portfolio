@@ -32,15 +32,15 @@ const SkillsSection: React.FC = () => {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "C/C++", "JavaScript"]
+      skills: ["C#", "SQL", "C/C++"]
     },
     {
       title: "Tools and Technologies",
-      skills: ["Git", "GitHub", "VSCode", "AWS Cloud Fundamentals"]
+      skills: ["Git", "GitHub","GitLab","Scalar", "VSCode", "Visual Studio"]
     },
     {
       title: "Frameworks and Libraries",
-      skills: ["React", "Streamlit", "Anaconda", "spaCy", "Scikit-learn", "NLTK"]
+      skills: [".NET 8", "ASP.NET Core Web API", "Entity Framework", "SignalR", "Dapper", "Serilog","React"]
     },
     {
       title: "Soft Skills",
@@ -69,24 +69,43 @@ const SkillsSection: React.FC = () => {
         <Separator className="my-16" />
         
         <div className="mt-16">
-          <h3 className="text-2xl font-semibold text-center mb-8">Certifications</h3>
-          <div className="max-w-2xl mx-auto">
+          <h3 className="text-2xl font-semibold text-center mb-8">Publications</h3>
+          <div className="max-w-2xl mx-auto ">
             <Card className="hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex justify-between items-center">
                   <div>
-                    <h4 className="text-lg font-semibold">Pandas Fundamentals</h4>
-                    <p className="text-sm text-muted-foreground">Kaggle</p>
+                    <h4 className="text-lg font-semibold">Analyzing Behavior of Agricultural Commodities in Kalimati Tarkari Market using Machine Learning Technique and Prediction Strategies — ICICSET 2025 (Dec 2025)</h4>
+                    <p className="text-sm text-muted-foreground">ICISET</p>
                     <a 
-                      href="https://www.kaggle.com/learn/certification/rushabrisal/pandas" 
+                      href="https://doi.org/10.65091/icicset.v2i1.20" 
                       target="_blank"
                       rel="noreferrer"
                       className="text-sm text-primary underline mt-1 inline-block"
                     >
-                      View Certificate
+                      View Paper
                     </a>
                   </div>
-                  <span className="text-sm">Dec 2024</span>
+                  {/* <span className="text-sm">Dec 2024</span> */}
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-6">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <h4 className="text-lg font-semibold">Evaluation of Machine Learning Techniques in Winner Predicting of The Hundred Games — ICICSET 2025 (Dec 2025)</h4>
+                    <p className="text-sm text-muted-foreground">ICISET</p>
+                    <a 
+                      href="https://doi.org/10.65091/icicset.v2i1.30" 
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-sm text-primary underline mt-1 inline-block"
+                    >
+                      View Paper
+                    </a>
+                  </div>
+                  {/* <span className="text-sm">Dec 2024</span> */}
                 </div>
               </CardContent>
             </Card>

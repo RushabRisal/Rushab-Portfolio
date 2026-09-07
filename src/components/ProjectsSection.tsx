@@ -52,25 +52,51 @@ const ProjectCard: React.FC<{
 const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: "Vegetable Market Analysis and Price Prediction",
-      description: "A data science project for visualizing and predicting vegetable prices",
+      title: "IssueForge",
+      description: "A full-stack issue tracking and ticket management system built with ASP.NET Core and React",
       details: [
-        "Developed an interactive streamlit app where we can visualise the prize and predict future prize of the commodities",
-        "During development, grasp prior knowledge of data preprocessing, analysis, extraction of features, build a model and deploy the model in streamlit."
+         "Developed a full-stack ticket management system with features including user authentication, ticket creation, assignment, status management, attachments, and resolution reporting.",
+
+        "Implemented the backend using ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, CQRS, MediatR, and Repository Pattern, with Cloudinary for file storage and Hangfire for background processing.",
+
+        "Implemented secure authentication flows including email/OTP registration, login, token refresh, logout, and password recovery, while using Serilog for application logging and Scalar for API documentation."
       ],
-      githubLink: "https://github.com/RushabRisal/DSML-project",
-      demoLink: "https://github.com/RushabRisal/DSML-project"
+      githubLink: "https://github.com/RushabRisal/IssueForge-TicketSimulation",
+      demoLink: "https://github.com/RushabRisal/IssueForge-TicketSimulation"
     },
     {
-      title: "Hult Prize at NCIT",
-      description: "Technical support for organization's website",
-      details: [
-        "Handled the technical issues occurred throughout the event.",
-        "Built a website for the organisation"
-      ],
-      githubLink: "https://hultprize.ncit.edu.np",
-      demoLink: "https://hultprize.ncit.edu.np"
+      title: "Aether",
+      description: "An AI-powered project management and workflow orchestration system designed to transform how teams plan, execute, and track work.",
+      // details: [
+      //    "Developed a full-stack ticket management system with features including user authentication, ticket creation, assignment, status management, attachments, and resolution reporting.",
+
+      //   "Implemented the backend using ASP.NET Core, Entity Framework Core, SQL Server, Clean Architecture, CQRS, MediatR, and Repository Pattern, with Cloudinary for file storage and Hangfire for background processing.",
+
+      //   "Implemented secure authentication flows including email/OTP registration, login, token refresh, logout, and password recovery, while using Serilog for application logging and Scalar for API documentation."
+      // ],
+      githubLink: "https://github.com/RushabRisal/IssueForge-TicketSimulation",
+      demoLink: "https://github.com/RushabRisal/IssueForge-TicketSimulation"
     },
+    // {
+    //   title: "Vegetable Market Analysis and Price Prediction",
+    //   description: "A data science project for visualizing and predicting vegetable prices",
+    //   details: [
+    //     "Developed an interactive streamlit app where we can visualise the prize and predict future prize of the commodities",
+    //     "During development, grasp prior knowledge of data preprocessing, analysis, extraction of features, build a model and deploy the model in streamlit."
+    //   ],
+    //   githubLink: "https://github.com/RushabRisal/DSML-project",
+    //   demoLink: "https://github.com/RushabRisal/DSML-project"
+    // },
+    // {
+    //   title: "Hult Prize at NCIT",
+    //   description: "Technical support for organization's website",
+    //   details: [
+    //     "Handled the technical issues occurred throughout the event.",
+    //     "Built a website for the organisation"
+    //   ],
+    //   githubLink: "https://hultprize.ncit.edu.np",
+    //   demoLink: "https://hultprize.ncit.edu.np"
+    // },
     {
       title: "Nepal Open Source Klub (NOSK)",
       description: "Website development for Software Freedom Day",
